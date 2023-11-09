@@ -56,7 +56,7 @@ if ($PIMRoles) {
 
 # Interactively choose roles to request
 else {
-    Write-Host "Choose which roles you want to request access for:"
+    Write-Host "Which roles do you want to request access to:"
     Write-Host "(Multiple roles can be requested by separating them with a comma)"
     Write-Host "================================================================="
 
@@ -94,7 +94,7 @@ else {
 
 Write-Host ""
 Write-Host "================================================================="
-Write-Host "You're requesting access for the following roles:"
+Write-Host "You're requesting access to the following roles:"
 Write-Host ""
 
 $selectedRoleIds | ForEach-Object {

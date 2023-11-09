@@ -1,0 +1,15 @@
+[package]
+name = "requestpim"
+version = "1.0.0"
+edition = "2021"
+authors = ["Ragerin"]
+description = "Tool for easily requesting Azure Entra PIM access"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+clap = { version = "4.4.6", features = ["derive"] }
+inquire = "0.6.2"
+reqwest = { version = "0.11.22", features = ["blocking", "json"] }
+serde = { version = "1.0.188", features = ["derive"] }
+serde_json = "1.0.107"
